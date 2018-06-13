@@ -15,6 +15,6 @@ class Genre < ActiveRecord::Base
     self.artists.all.each do |el|
       result << el.name
     end
-    result 
+    result
   end
 end
